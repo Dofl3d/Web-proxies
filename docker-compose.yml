@@ -1,0 +1,6 @@
+version: '3'
+services:
+  proxy-peek:
+    build: ./app
+    ports:
+      - "3000:3000"
